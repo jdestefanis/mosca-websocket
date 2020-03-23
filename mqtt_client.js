@@ -3,7 +3,7 @@ var mqtt = require('mqtt');
 exports.publishMsg = async function(device, message, callback) {
     const mqtt_url = "mqtt://localhost";
     var options = {
-        port: config.mqttPort,
+        port: 1443,
         clientId : 'xxxxxx'
     };
 
